@@ -38,7 +38,7 @@ export default function Skills() {
   return (
     <section id="skills" className="py-20 relative z-10 bg-slate-900/30 border-y border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Technical Arsenal" subtitle="Technologies and frameworks I work with." />
+        <SectionHeading title="Technical Skill" subtitle="Technologies and frameworks I work with." />
         
         <motion.div 
           variants={containerVariants}
