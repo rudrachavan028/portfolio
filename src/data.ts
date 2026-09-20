@@ -74,15 +74,15 @@ export const portfolioData = {
       description: "Full-stack PTSD digital therapy platform with a 20-question assessment system. Integrates Google Gemini API for AI-powered personalized therapy recommendations. Features secure JWT authentication.",
       technologies: ["React", "Node.js", "MySQL", "Google Gemini API", "JWT"],
       image: "/Neuro.png", // Ensure you upload project-neuro-therapy.png to the public folder
-      githubUrl: "#",
-      demoUrl: "#"
+      githubUrl: "https://github.com/rudrachavan028/NeuroTherapy",
+      demoUrl: "https://drive.google.com/file/d/1q-Niygy-W8ZEG9Vfn2s53DusEaeFM6_9/view?usp=drivesdk"
     },
     {
       title: "Netflix Recommendation System",
       description: "Data analytics and recommendation project analyzing Netflix viewing trends and user behavior. Performed data cleaning, visualization, and derived insights on genres and engagement patterns.",
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       image: "/Netflix.png", // Ensure you upload project-netflix.png to the public folder
-      githubUrl: "#",
+      githubUrl: "https://github.com/rudrachavan028/Netflix-Data-Analysis",
       demoUrl: "#"
     },
   ],
