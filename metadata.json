@@ -1,0 +1,6 @@
+{
+  "name": "Rudra Chavan Portfolio",
+  "description": "A modern, futuristic personal portfolio website for Rudra Chavan, an AI & Machine Learning Engineering student.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
