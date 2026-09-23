@@ -27,47 +27,47 @@ export default function Contact() {
               Whether you have a question, want to collaborate on an AI problem, or want to discuss opportunities, my inbox is always open. I'll try my best to get back to you!
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <a href={`mailto:${email}`} className="flex flex-col items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group p-6 glass-panel rounded-xl">
-                <div className="p-4 bg-slate-800 rounded-full group-hover:bg-cyan-500/20 transition-colors">
-                  <Mail size={32} className="text-blue-400 group-hover:text-cyan-400" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
+              <a href={`mailto:${email}`} className="flex flex-col items-center gap-3 sm:gap-4 text-slate-300 hover:text-cyan-400 transition-colors group p-5 sm:p-6 glass-panel rounded-xl">
+                <div className="p-3.5 sm:p-4 bg-slate-800 rounded-full group-hover:bg-cyan-500/20 transition-colors">
+                  <Mail size={28} className="text-blue-400 group-hover:text-cyan-400" />
                 </div>
-                <div>
-                  <div className="text-sm text-slate-500 mb-1">Email</div>
-                  <div className="font-medium">{email}</div>
+                <div className="text-center w-full">
+                  <div className="text-xs sm:text-sm text-slate-500 mb-1">Email</div>
+                  <div className="font-medium text-sm sm:text-base break-all px-1">{email}</div>
                 </div>
               </a>
 
-              <a href={`tel:${phone.replace(/\s+/g, '')}`} className="flex flex-col items-center gap-4 text-slate-300 hover:text-cyan-400 transition-colors group p-6 glass-panel rounded-xl">
-                <div className="p-4 bg-slate-800 rounded-full group-hover:bg-cyan-500/20 transition-colors">
-                  <Phone size={32} className="text-blue-400 group-hover:text-cyan-400" />
+              <a href={`tel:${phone.replace(/\s+/g, '')}`} className="flex flex-col items-center gap-3 sm:gap-4 text-slate-300 hover:text-cyan-400 transition-colors group p-5 sm:p-6 glass-panel rounded-xl">
+                <div className="p-3.5 sm:p-4 bg-slate-800 rounded-full group-hover:bg-cyan-500/20 transition-colors">
+                  <Phone size={28} className="text-blue-400 group-hover:text-cyan-400" />
                 </div>
-                <div>
-                  <div className="text-sm text-slate-500 mb-1">Phone</div>
-                  <div className="font-medium">{phone}</div>
+                <div className="text-center w-full">
+                  <div className="text-xs sm:text-sm text-slate-500 mb-1">Phone</div>
+                  <div className="font-medium text-sm sm:text-base">{phone}</div>
                 </div>
               </a>
               
-              <div className="flex flex-col items-center gap-4 text-slate-300 p-6 glass-panel rounded-xl">
-                <div className="p-4 bg-slate-800 rounded-full">
-                  <MapPin size={32} className="text-blue-400" />
+              <div className="flex flex-col items-center gap-3 sm:gap-4 text-slate-300 p-5 sm:p-6 glass-panel rounded-xl">
+                <div className="p-3.5 sm:p-4 bg-slate-800 rounded-full">
+                  <MapPin size={28} className="text-blue-400" />
                 </div>
-                <div>
-                  <div className="text-sm text-slate-500 mb-1">Location</div>
-                  <div className="font-medium">{location}</div>
+                <div className="text-center w-full">
+                  <div className="text-xs sm:text-sm text-slate-500 mb-1">Location</div>
+                  <div className="font-medium text-sm sm:text-base">{location}</div>
                 </div>
               </div>
             </div>
             
-            <div className="flex flex-wrap gap-4 justify-center mt-8">
-              <a href={linkedin} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 bg-[#0a66c2] hover:bg-[#004182] text-white rounded-md font-medium transition-colors">
-                <Linkedin size={20} /> LinkedIn
+            <div className="flex flex-wrap gap-3 sm:gap-4 justify-center mt-6 sm:mt-8">
+              <a href={linkedin} target="_blank" rel="noreferrer" className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-[#0a66c2] hover:bg-[#004182] text-white rounded-lg font-medium transition-colors text-sm">
+                <Linkedin size={18} /> LinkedIn
               </a>
-              <a href={github} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 bg-[#24292e] hover:bg-[#1b1f23] text-white rounded-md font-medium transition-colors border border-slate-700">
-                <Github size={20} /> GitHub
+              <a href={github} target="_blank" rel="noreferrer" className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-[#24292e] hover:bg-[#1b1f23] text-white rounded-lg font-medium transition-colors border border-slate-700 text-sm">
+                <Github size={18} /> GitHub
               </a>
-              <a href={leetcode} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 glass-panel text-white hover:text-cyan-400 rounded-md font-medium transition-colors">
-                <Code2 size={20} /> LeetCode
+              <a href={leetcode} target="_blank" rel="noreferrer" className="w-full sm:w-auto flex items-center justify-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 glass-panel text-white hover:text-cyan-400 rounded-lg font-medium transition-colors text-sm">
+                <Code2 size={18} /> LeetCode
               </a>
             </div>
           </motion.div>
