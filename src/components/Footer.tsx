@@ -15,9 +15,9 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="border-t border-white/10 bg-slate-950 relative z-10 pt-16 pb-10">
+    <footer className="border-t border-white/10 bg-slate-950 relative z-10 pt-12 sm:pt-16 pb-8 sm:pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/5">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 sm:gap-10 pb-8 sm:pb-12 border-b border-white/5">
           {/* Name / Branding & Tagline */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
@@ -59,7 +59,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col space-y-3">
               <a
-                href={github || "https://github.com/rudrachavan028"}
+                href={github || "https://github.com/yourgithub"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 text-slate-300 hover:text-sky-400 transition-colors text-sm group py-0.5"
@@ -71,7 +71,7 @@ export default function Footer() {
               </a>
 
               <a
-                href={linkedin || "https://linkedin.com/in/rudrachavan"}
+                href={linkedin || "https://linkedin.com/in/yourlinkedin"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 text-slate-300 hover:text-sky-400 transition-colors text-sm group py-0.5"
@@ -83,7 +83,7 @@ export default function Footer() {
               </a>
 
               <a
-                href={`mailto:${email || "chavanrudra028@gmail.com"}`}
+                href={`mailto:${email || "youremail@example.com"}`}
                 className="inline-flex items-center gap-3 text-slate-300 hover:text-sky-400 transition-colors text-sm group py-0.5"
               >
                 <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-sky-500/30 group-hover:bg-sky-500/10 transition-colors">
@@ -96,11 +96,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar without any copyright logo */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="pt-6 sm:pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4 text-xs text-slate-500 text-center sm:text-left">
           <div>
-            Rudra Rahul Chavan
+            {portfolioData.hero.name || "Rudra Chavan"}
           </div>
-          <div className="flex items-center gap-6 font-mono">
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 font-mono">
             <span>AI / ML Portfolio</span>
             <span className="text-slate-600">•</span>
             <span>All rights reserved</span>
