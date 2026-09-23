@@ -59,7 +59,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col space-y-3">
               <a
-                href={github || "https://github.com/yourgithub"}
+                href={github || "https://github.com/rudrachavan028"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 text-slate-300 hover:text-sky-400 transition-colors text-sm group py-0.5"
@@ -71,7 +71,7 @@ export default function Footer() {
               </a>
 
               <a
-                href={linkedin || "https://linkedin.com/in/yourlinkedin"}
+                href={linkedin || "https://linkedin.com/in/rudrachavan"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 text-slate-300 hover:text-sky-400 transition-colors text-sm group py-0.5"
@@ -83,7 +83,7 @@ export default function Footer() {
               </a>
 
               <a
-                href={`mailto:${email || "youremail@example.com"}`}
+                href={`mailto:${email || "chavanrudra028@gmail.com"}`}
                 className="inline-flex items-center gap-3 text-slate-300 hover:text-sky-400 transition-colors text-sm group py-0.5"
               >
                 <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-sky-500/30 group-hover:bg-sky-500/10 transition-colors">
