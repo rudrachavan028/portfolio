@@ -12,7 +12,7 @@ export default function Certificates() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading title="Certifications" subtitle="Continuous learning and professional credentials." />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-8 sm:mt-12">
           {certificates.map((cert, index) => (
             <motion.a 
               key={index}
