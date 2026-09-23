@@ -5,10 +5,10 @@ import { Download, FileText, CheckCircle2, Eye, Sparkles } from 'lucide-react';
 import { portfolioData } from '../data';
 
 export default function Resume() {
-  const resumeUrl = portfolioData.hero.resumeUrl;
+  const { resumeUrl, name } = portfolioData.hero;
 
   return (
-    <section id="resume" className="py-20 relative z-10 p-6">
+    <section id="resume" className="py-16 sm:py-20 relative z-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading 
           title="Resume" 
@@ -21,7 +21,7 @@ export default function Resume() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="glass-panel p-8 md:p-12 rounded-3xl relative overflow-hidden group mt-12 border border-white/10 shadow-2xl bg-slate-900/70"
+          className="glass-panel p-6 sm:p-8 md:p-12 rounded-2xl sm:rounded-3xl relative overflow-hidden group mt-8 sm:mt-12 border border-white/10 shadow-2xl bg-slate-900/70"
         >
           {/* Subtle decorative background glows */}
           <div className="absolute top-0 right-0 w-72 h-72 bg-sky-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
@@ -29,8 +29,8 @@ export default function Resume() {
           
           <div className="relative z-10 flex flex-col items-center text-center">
             {/* Icon Header */}
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-tr from-sky-500/20 to-indigo-500/20 border border-sky-500/30 flex items-center justify-center text-sky-400 shadow-xl shadow-sky-500/10 mb-6">
-              <FileText size={40} className="text-sky-400" />
+            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-tr from-sky-500/20 to-indigo-500/20 border border-sky-500/30 flex items-center justify-center text-sky-400 shadow-xl shadow-sky-500/10 mb-4 sm:mb-6">
+              <FileText size={36} className="text-sky-400" />
             </div>
 
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono font-medium mb-3">
@@ -39,7 +39,7 @@ export default function Resume() {
             </div>
             
             <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3 tracking-tight">
-              Rudra Rahul Chavan
+              {name}
             </h3>
             <p className="text-slate-400 max-w-xl text-base sm:text-lg mb-8 leading-relaxed">
               Explore my complete academic background, hands-on AI/ML project work, data engineering experience, and technical certifications.
