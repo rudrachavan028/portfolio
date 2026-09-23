@@ -27,8 +27,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center font-bold text-white shadow-lg shadow-sky-500/20">RC</div>
-            <a href="#" className="font-semibold tracking-tight text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 hover:opacity-80 transition-opacity">
-              Rudra Chavan
+            <a href="#" className="font-semibold tracking-tight text-lg sm:text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 hover:opacity-80 transition-opacity">
+              Rudra Rahul Chavan
             </a>
           </div>
           
