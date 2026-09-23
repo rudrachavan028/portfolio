@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import SectionHeading from './SectionHeading';
 import { portfolioData } from '../data';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink, Image as ImageIcon } from 'lucide-react';
 
 export default function Projects() {
   const { projects } = portfolioData;
+  const [imageErrors, setImageErrors] = useState<Record<number, boolean>>({});
+
+  const handleImageError = (index: number) => {
+    setImageErrors(prev => ({ ...prev, [index]: true }));
+  };
 
   return (
     <section id="projects" className="py-20 relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading title="Featured Projects" subtitle="Showcasing my work in AI/ML and software engineering." />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className={`grid grid-cols-1 md:grid-cols-2 ${projects.length >= 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2 max-w-5xl mx-auto'} gap-6 mt-8 sm:mt-12`}>
           {projects.map((project, index) => (
             <motion.div 
               key={index}
@@ -23,13 +28,23 @@ export default function Projects() {
               className="glass-panel overflow-hidden rounded-2xl group flex flex-col h-full border border-slate-700/50 hover:border-cyan-500/50 transition-colors"
             >
               {/* Project Image */}
-              <div className="relative h-48 overflow-hidden border-b border-slate-700/50 p-4 pb-0 bg-slate-800/30">
+              <div className="relative h-48 overflow-hidden border-b border-slate-700/50 bg-slate-800/30 flex items-center justify-center p-4 pb-0">
                 <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-slate-900 to-transparent z-10" />
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-full object-cover rounded-t-xl group-hover:scale-105 transition-transform duration-700" 
-                />
+                
+                {imageErrors[index] ? (
+                  <div className="flex flex-col items-center justify-center text-slate-500 z-20 pb-4">
+                    <ImageIcon size={32} className="mb-2 opacity-50" />
+                    <span className="text-xs font-mono text-center">Image not uploaded</span>
+                    <span className="text-[10px] text-slate-600 font-mono mt-1">{project.image.split('/').pop()}</span>
+                  </div>
+                ) : (
+                  <img 
+                    src={project.image} 
+                    alt={project.title} 
+                    onError={() => handleImageError(index)}
+                    className="w-full h-full object-cover rounded-t-xl group-hover:scale-105 transition-transform duration-700 relative z-0" 
+                  />
+                )}
               </div>
               
               {/* Project Details */}
