@@ -34,13 +34,13 @@ export default function Experience() {
                   <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-slate-900 bg-slate-800 text-blue-400 font-bold group-hover:bg-blue-500 group-hover:text-white transition-colors absolute left-0 md:left-1/2 md:-translate-x-1/2 shrink-0 z-10">
                     <Briefcase size={16} />
                   </div>
-                  <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-panel p-6 rounded-xl ml-14 md:ml-0 group-hover:border-blue-500/50 transition-colors">
+                  <div className="w-[calc(100%-3.5rem)] sm:w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-panel p-4 sm:p-6 rounded-xl ml-12 sm:ml-14 md:ml-0 group-hover:border-blue-500/50 transition-colors">
                     <div className="flex flex-col mb-2">
-                      <span className="text-sm font-mono text-blue-400">{exp.duration}</span>
-                      <h4 className="text-xl font-bold text-white mt-1">{exp.title}</h4>
-                      <span className="text-slate-400 font-medium">{exp.company}</span>
+                      <span className="text-xs sm:text-sm font-mono text-blue-400">{exp.duration}</span>
+                      <h4 className="text-lg sm:text-xl font-bold text-white mt-1">{exp.title}</h4>
+                      <span className="text-slate-400 text-sm font-medium">{exp.company}</span>
                     </div>
-                    <p className="text-slate-300 text-sm leading-relaxed mt-3">
+                    <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mt-2 sm:mt-3">
                       {exp.description}
                     </p>
                   </div>
