@@ -25,10 +25,11 @@ export default function Navbar() {
     <nav className={`fixed w-[calc(100%-2rem)] left-4 right-4 sm:w-[calc(100%-3rem)] sm:left-6 sm:right-6 max-w-7xl mx-auto top-4 z-50 transition-all duration-300 rounded-2xl ${scrolled ? 'bg-white/5 backdrop-blur-xl border border-white/10 shadow-xl' : 'bg-transparent'}`}>
       <div className="px-4 py-2 sm:px-6">
         <div className="flex items-center justify-between h-14">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center font-bold text-white shadow-lg shadow-sky-500/20">RC</div>
-            <a href="#" className="font-semibold tracking-tight text-lg sm:text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 hover:opacity-80 transition-opacity">
-              Rudra Rahul Chavan
+          <div className="flex items-center gap-2.5 sm:gap-3">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center font-bold text-white text-sm sm:text-base shadow-lg shadow-sky-500/20 shrink-0">RC</div>
+            <a href="#" className="font-semibold tracking-tight text-base sm:text-xl bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 hover:opacity-80 transition-opacity truncate max-w-[200px] sm:max-w-none">
+              <span className="hidden sm:inline">Rudra Rahul Chavan</span>
+              <span className="sm:hidden">Rudra Chavan</span>
             </a>
           </div>
           
@@ -67,14 +68,14 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden glass-panel border-t border-white/10">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="md:hidden glass-panel border-t border-white/10 rounded-2xl mt-2 p-3 bg-slate-950/95 backdrop-blur-2xl shadow-2xl">
+          <div className="space-y-1">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="text-slate-300 hover:text-cyan-400 block px-3 py-2 rounded-md text-base font-medium"
+                className="text-slate-300 hover:text-cyan-400 block px-4 py-2.5 rounded-xl text-base font-medium transition-colors active:bg-white/5"
               >
                 {link.name}
               </a>
@@ -82,7 +83,7 @@ export default function Navbar() {
             <a
               href="#resume"
               onClick={() => setIsOpen(false)}
-              className="block bg-cyan-500/10 text-cyan-400 border border-cyan-500/50 rounded-md px-3 py-2 mt-4 text-base font-medium"
+              className="block bg-sky-500 text-slate-950 font-bold rounded-xl px-4 py-2.5 mt-3 text-base text-center shadow-lg shadow-sky-500/20"
             >
               Resume
             </a>
