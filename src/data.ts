@@ -80,7 +80,7 @@ export const portfolioData = {
     {
       title: "Netflix Recommendation System",
       description: "Data analytics and recommendation project analyzing Netflix viewing trends and user behavior. Performed data cleaning, visualization, and derived insights on genres and engagement patterns.",
-      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+      technologies: ["Python", "Machine Learning","Data Analyst","Pandas", "Matplotlib", "Seaborn"],
       image: "/Netflix.png", // Ensure you upload project-netflix.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Netflix-Data-Analysis",
       demoUrl: "#"
