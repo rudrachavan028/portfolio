@@ -115,7 +115,7 @@ export const portfolioData = {
       id: 1,
       rank: "1st Rank",
       title: "State Level Project Competition",
-      subtitle: "DIPEX State Innovation & Engineering Expo",
+      subtitle: "State Innovation & Engineering Expo",
       info: "Secured 1st Rank across Maharashtra state for presenting an AI-powered Neuro Therapy platform addressing PTSD recovery using intelligent assessment algorithms.",
       project: "Neuro Therapy AI Platform",
       image: "/ach1.jpg",
