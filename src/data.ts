@@ -74,24 +74,119 @@ export const portfolioData = {
       description: "Full-stack PTSD digital therapy platform with a 20-question assessment system. Integrates Google Gemini API for AI-powered personalized therapy recommendations. Features secure JWT authentication.",
       technologies: ["React", "Node.js", "MySQL", "Google Gemini API", "JWT"],
       image: "/Neuro.png", // Ensure you upload project-neuro-therapy.png to the public folder
-      githubUrl: "https://github.com/rudrachavan028/NeuroTherapy",
-      demoUrl: "https://drive.google.com/file/d/1q-Niygy-W8ZEG9Vfn2s53DusEaeFM6_9/view?usp=drivesdk"
+      githubUrl: "#",
+      demoUrl: "#"
     },
     {
       title: "Netflix Recommendation System",
       description: "Data analytics and recommendation project analyzing Netflix viewing trends and user behavior. Performed data cleaning, visualization, and derived insights on genres and engagement patterns.",
-      technologies: ["Python", "Machine Learning","Data Analyst","Pandas", "Matplotlib", "Seaborn"],
+      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       image: "/Netflix.png", // Ensure you upload project-netflix.png to the public folder
-      githubUrl: "https://github.com/rudrachavan028/Netflix-Data-Analysis",
+      githubUrl: "#",
       demoUrl: "#"
     },
   ],
   experience: [
     {
-      title: "Data Analytics & Machine Learning Intern",
+      role: "Data Analytics & Machine Learning Intern",
       company: "Domain IT Services, Kolhapur",
       duration: "June 2025 – August 2025",
-      description: "Learned Python programming and AI fundamentals. Worked with NumPy, Pandas, and scikit-learn. Gained practical exposure to real-world AI and data analytics projects."
+      location: "Kolhapur, Maharashtra, India",
+      photo: "/interns.jpg",
+      description: "Learned Python programming and AI fundamentals. Worked with NumPy, Pandas, and scikit-learn. Gained practical exposure to real-world AI and data analytics projects.",
+      keyPoints: [
+        "Machine Learning",
+        "Data Science",
+        "Data Visualization",
+        "Data Preprocessing & Cleaning",
+        "Model Training & Evaluation",
+        "Scikit-Learn & Python"
+      ],
+      highlights: [
+        "Built and evaluated supervised predictive models for consumer behavioral analytics.",
+        "Engineered automated data pipelines using Pandas and NumPy to process unstructured datasets.",
+        "Designed interactive data visualization charts with Matplotlib & Seaborn to highlight statistical distributions.",
+        "Gained hands-on expertise in algorithm optimization, model tuning, and feature engineering."
+      ]
+    }
+  ],
+  achievementsList: [
+    {
+      id: 1,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "DIPEX State Innovation & Engineering Expo",
+      info: "Secured 1st Rank across Maharashtra state for presenting an AI-powered Neuro Therapy platform addressing PTSD recovery using intelligent assessment algorithms.",
+      project: "Neuro Therapy AI Platform",
+      image: "/ach1.jpg",
+      badge: "Winner • Gold Trophy",
+      date: "2025"
+    },
+    {
+      id: 2,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "National TechFest & Innovation Symposium",
+      info: "Crowned 1st Rank for designing high-accuracy predictive machine learning models and real-time behavioral data analytics pipelines.",
+      project: "Predictive Analytics Architecture",
+      image: "/ach2.jpg",
+      badge: "1st Prize • Certificate of Excellence",
+      date: "2025"
+    },
+    {
+      id: 3,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "Maharashtra State Engineering Conclave",
+      info: "Won 1st Rank among 140+ competing teams for demonstrated engineering innovation, code quality, and real-world clinical feasibility.",
+      project: "Intelligent Diagnostic Assistant",
+      image: "/ach3.jpg",
+      badge: "1st Position • State Trophy",
+      date: "2024"
+    },
+    {
+      id: 4,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "Inter-Collegiate AI & Deep Learning Summit",
+      info: "Awarded 1st Rank for best technical implementation and algorithmic efficiency in supervised and unsupervised model training.",
+      project: "Deep Learning Vision System",
+      image: "/ach4.jpg",
+      badge: "1st Rank • Cash Prize & Trophy",
+      date: "2024"
+    },
+    {
+      id: 5,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "State Technical Paper & Project Exhibition",
+      info: "Honored with 1st Rank for outstanding problem-solving and presentation on transformative AI algorithms for modern healthcare.",
+      project: "Generative AI Healthcare Engine",
+      image: "/ach5.jpg",
+      badge: "1st Prize • Best Project Trophy",
+      date: "2024"
+    },
+    {
+      id: 6,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "Grand Innovation Hackathon Championship",
+      info: "Achieved 1st Rank in rapid AI prototyping, creating an end-to-end data science pipeline with intuitive visualization dashboards.",
+      project: "Automated Data Science Pipeline",
+      image: "/ach6.jpg",
+      badge: "1st Rank • Winner",
+      date: "2023"
+    },
+    {
+      id: 7,
+      rank: "1st Rank",
+      title: "State Level Project Competition",
+      subtitle: "State Level Technical Excellence Forum",
+      info: "Recognized with 1st Rank for state-level technological leadership, innovation impact, and comprehensive model benchmarking.",
+      project: "Behavioral Analytics Engine",
+      image: "/ach7.jpg",
+      badge: "1st Rank • Grand Award",
+      date: "2023"
     }
   ],
   achievements: [
