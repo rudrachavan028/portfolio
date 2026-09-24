@@ -7,8 +7,7 @@ import {
   Award, 
   ChevronLeft, 
   ChevronRight, 
-  Calendar,
-  MoveHorizontal
+  Calendar
 } from 'lucide-react';
 
 interface AchievementItem {
@@ -162,22 +161,6 @@ export default function Achievements() {
           title="Achievements" 
           subtitle="State & national level project competition victories and technological milestones" 
         />
-
-        {/* Gesture Guidance Notice */}
-        <div className="flex items-center justify-between text-xs font-mono text-slate-400 px-2 mt-4 sm:mt-6">
-          <span className="hidden sm:flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-            Auto-gliding • Hover left edge to glide left
-          </span>
-          <span className="flex items-center gap-1.5 text-sky-400 font-medium">
-            <MoveHorizontal size={14} className="animate-pulse text-sky-400" />
-            Swipe or drag in both directions
-          </span>
-          <span className="hidden sm:flex items-center gap-1.5">
-            Hover right edge to glide right
-            <span className="w-2 h-2 rounded-full bg-sky-400 animate-pulse" />
-          </span>
-        </div>
       </div>
 
       {/* WALLPAPER ANIMATED CAROUSEL CONTAINER */}
