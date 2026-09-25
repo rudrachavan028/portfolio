@@ -146,7 +146,7 @@ export const portfolioData = {
     },
     {
       id: 4,
-      rank: "1st Rank",
+      rank: "2nd Rank",
       title: "National Level Project Competition",
       subtitle: "Inter-Collegiate AI & Deep Learning Summit",
       info: "Awarded 1st Rank for best technical implementation and algorithmic efficiency in supervised and unsupervised model training.",
