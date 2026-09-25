@@ -118,7 +118,7 @@ export const portfolioData = {
       subtitle: "National-Level Achievement in Competitive Aptitude",
       info: "Secured All India Rank 310 in the prestigious NCAT Exam conducted by Nukari, showcasing strong analytical skills, problem-solving ability, and consistent academic excellence at a national level.",
       project: "",
-      image: "/ach1.jpg",
+      image: "/ach5.png",
       badge: "",
       date: "2026"
     },
@@ -162,7 +162,7 @@ export const portfolioData = {
       subtitle: "Recognized for Outstanding Performance and Holistic Contribution",
       info: "Awarded for exceptional academic results, consistent dedication, and active participation in extracurricular activities. This honor highlights leadership qualities, discipline, and commitment to excellence among peers.",
       project: "",
-      image: "/ach5.jpg",
+      image: "/ach1.jpg",
       badge: "1st Prize • Best Project Trophy",
       date: "2025-2026"
     },
