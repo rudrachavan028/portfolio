@@ -113,58 +113,58 @@ export const portfolioData = {
   achievementsList: [
     {
       id: 1,
-      rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "State Innovation & Engineering Expo",
-      info: "Secured 1st Rank across Maharashtra state for presenting an AI-powered Neuro Therapy platform addressing PTSD recovery using intelligent assessment algorithms.",
-      project: "Neuro Therapy AI Platform",
+      rank: "AIR 310",
+      title: "All India NCAT Exam – AIR 310",
+      subtitle: "National-Level Achievement in Competitive Aptitude",
+      info: "Secured All India Rank 310 in the prestigious NCAT Exam conducted by Nukari, showcasing strong analytical skills, problem-solving ability, and consistent academic excellence at a national level.",
+      project: "",
       image: "/ach1.jpg",
-      badge: "Winner • Gold Trophy",
-      date: "2025"
+      badge: "",
+      date: "2026"
     },
     {
       id: 2,
-      rank: "1st Rank",
-      title: "State Level Project Competition",
+      rank: "2nd Rank",
+      title: "National Level Project Competition",
       subtitle: "National TechFest & Innovation Symposium",
       info: "Crowned 1st Rank for designing high-accuracy predictive machine learning models and real-time behavioral data analytics pipelines.",
-      project: "Predictive Analytics Architecture",
+      project: "The Digital Therapy Platform",
       image: "/ach2.jpg",
       badge: "1st Prize • Certificate of Excellence",
-      date: "2025"
+      date: "2026"
     },
     {
       id: 3,
       rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "Maharashtra State Engineering Conclave",
-      info: "Won 1st Rank among 140+ competing teams for demonstrated engineering innovation, code quality, and real-world clinical feasibility.",
-      project: "Intelligent Diagnostic Assistant",
+      title: "State Level Competition",
+      subtitle: "Hackethon Style Event",
+      info: "Won 1st Rank and demonstrated engineering innovation, code quality, and real-world clinical feasibility.",
+      project: "AI Powered Career Guidance System",
       image: "/ach3.jpg",
       badge: "1st Position • State Trophy",
-      date: "2024"
+      date: "2026"
     },
     {
       id: 4,
       rank: "1st Rank",
-      title: "State Level Project Competition",
+      title: "National Level Project Competition",
       subtitle: "Inter-Collegiate AI & Deep Learning Summit",
       info: "Awarded 1st Rank for best technical implementation and algorithmic efficiency in supervised and unsupervised model training.",
-      project: "Deep Learning Vision System",
+      project: "Neuro Therapy : The Digital Therapy Platform",
       image: "/ach4.jpg",
       badge: "1st Rank • Cash Prize & Trophy",
-      date: "2024"
+      date: "2026"
     },
     {
       id: 5,
-      rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "State Technical Paper & Project Exhibition",
-      info: "Honored with 1st Rank for outstanding problem-solving and presentation on transformative AI algorithms for modern healthcare.",
-      project: "Generative AI Healthcare Engine",
+      rank: "Best Student Award",
+      title: "Best Student Award – Academic Excellence",
+      subtitle: "Recognized for Outstanding Performance and Holistic Contribution",
+      info: "Awarded for exceptional academic results, consistent dedication, and active participation in extracurricular activities. This honor highlights leadership qualities, discipline, and commitment to excellence among peers.",
+      project: "",
       image: "/ach5.jpg",
       badge: "1st Prize • Best Project Trophy",
-      date: "2024"
+      date: "2025-2026"
     },
     {
       id: 6,
@@ -172,21 +172,21 @@ export const portfolioData = {
       title: "State Level Project Competition",
       subtitle: "Grand Innovation Hackathon Championship",
       info: "Achieved 1st Rank in rapid AI prototyping, creating an end-to-end data science pipeline with intuitive visualization dashboards.",
-      project: "Automated Data Science Pipeline",
+      project: "Neuro Therapy : The Digital Therapy Platform",
       image: "/ach6.jpg",
       badge: "1st Rank • Winner",
-      date: "2023"
+      date: "2026"
     },
     {
       id: 7,
-      rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "State Level Technical Excellence Forum",
+      rank: "3rd Rank",
+      title: "National Level Project Competition",
+      subtitle: "National Level Technical Excellence Forum",
       info: "Recognized with 1st Rank for state-level technological leadership, innovation impact, and comprehensive model benchmarking.",
       project: "Behavioral Analytics Engine",
       image: "/ach7.jpg",
-      badge: "1st Rank • Grand Award",
-      date: "2023"
+      badge: "2nd Rank • Grand Award",
+      date: "2026"
     }
   ],
   achievements: [
