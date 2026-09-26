@@ -204,26 +204,45 @@ export const portfolioData = {
       description: "Research paper focusing on modern machine learning techniques and their practical implementation in real-world scenarios."
     }
   ],
+   achievements: [
+    "Winner of 3 State-Level Project Competitions",
+    "Winner of 3 National-Level Project Competitions",
+    "Hackathon-style technical event winner",
+    "Represented institute in multiple state-level competitions",
+    "Strong innovation and problem-solving skills recognized across multiple events"
+  ],
+  publications: [
+    {
+      title: "Research Paper on AI/ML Applications",
+      conference: "Published in Reputed AI Journal",
+      date: "2026",
+      description: "Research paper focusing on modern machine learning techniques and their practical implementation in real-world scenarios."
+    }
+  ],
   certificates: [
     {
       title: "Machine Learning",
       issuer: "Simplilearn",
-      link: "https://drive.google.com/file/d/1XBmkqXsnMCT76SAsXzXFv2fB1hi0IWeL/view?usp=drivesdk" // Replace with actual link
+      logo: "https://static-asset.inc42.com/logo/simplilearn.png", // Add your logo image link or URL here (e.g. "/logos/simplilearn.png" or "https://...")
+      link: "https://drive.google.com/file/d/1XBmkqXsnMCT76SAsXzXFv2fB1hi0IWeL/view?usp=drivesdk"
     },
     {
       title: "LLM",
       issuer: "Google Cloud",
-      link: "https://drive.google.com/file/d/1UohOPUvKcoar7TrrmIbRlFWBeOy3MCXq/view?usp=drivesdk" // Replace with actual link
+      logo: "https://i.logos-download.com/114492/33168-s2560-d0e3602863febecac19ed317fd186e30.png/Google_Cloud_Logo_2016_icon-s2560.png?dl", // Add your logo image link or URL here (e.g. "/logos/google.png" or "https://...")
+      link: "https://drive.google.com/file/d/1UohOPUvKcoar7TrrmIbRlFWBeOy3MCXq/view?usp=drivesdk"
     },
     {
       title: "Generative AI Certification",
       issuer: "Microsoft & LinkedIn",
-      link: "https://drive.google.com/file/d/1ATLdMkHSmxow5PD4Aa4aPm1DQ_igqBgi/view?usp=drivesdk" // Replace with actual link
+      logo: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/960px-Microsoft_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail", // Add your logo image link or URL here (e.g. "/logos/microsoft.png" or "https://...")
+      link: "https://drive.google.com/file/d/1ATLdMkHSmxow5PD4Aa4aPm1DQ_igqBgi/view?usp=drivesdk"
     },
     {
       title: "C++ Programming Certification",
       issuer: "MKDRC",
-      link: "https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" // Replace with actual link
+      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGhGuyiGT4J0g/company-logo_200_200/company-logo_200_200/0/1631301433627?e=2147483647&v=beta&t=RZ3ajV3SjzA2EgnQttXw6MongyowVYH8G_8NjrXi7ZQ", // Add your logo image link or URL here (e.g. "/logos/mkdrc.png" or "https://...")
+      link: "https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing"
     }
   ]
 };
