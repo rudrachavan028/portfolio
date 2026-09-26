@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen text-slate-200 overflow-x-hidden w-full relative">
+    <div className="min-h-screen text-slate-200 overflow-x-hidden w-full relative bg-slate-950 selection:bg-sky-500/20 selection:text-sky-300">
       <div className="ambient-glow" />
       <NetworkBackground />
       <Navbar />
