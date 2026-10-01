@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, RotateCcw } from 'lucide-react';
 
-export default function Navbar() {
+interface NavbarProps {
+  onReplayLoader?: () => void;
+}
+
+export default function Navbar({ onReplayLoader }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -52,6 +56,15 @@ export default function Navbar() {
               >
                 RESUME
               </a>
+              {onReplayLoader && (
+                <button
+                  onClick={onReplayLoader}
+                  title="Demo Studio Size Loading Indicator"
+                  className="p-2 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-sky-400 border border-white/10 transition-colors"
+                >
+                  <RotateCcw size={14} />
+                </button>
+              )}
             </div>
           </div>
           
