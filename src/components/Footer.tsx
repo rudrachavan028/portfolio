@@ -1,8 +1,12 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, RotateCcw } from 'lucide-react';
 import { portfolioData } from '../data';
 
-export default function Footer() {
+interface FooterProps {
+  onReplayLoader?: () => void;
+}
+
+export default function Footer({ onReplayLoader }: FooterProps) {
   const { github, linkedin, email } = portfolioData.hero;
 
   const navLinks = [
@@ -104,6 +108,18 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 font-mono">
             <span>AI / ML Portfolio</span>
             <span className="text-slate-600">•</span>
+            {onReplayLoader && (
+              <>
+                <button
+                  onClick={onReplayLoader}
+                  className="hover:text-sky-400 transition-colors inline-flex items-center gap-1.5 text-slate-400"
+                >
+                  <RotateCcw size={11} />
+                  <span>Demo Studio Size Loader</span>
+                </button>
+                <span className="text-slate-600">•</span>
+              </>
+            )}
             <span>All rights reserved</span>
           </div>
         </div>
