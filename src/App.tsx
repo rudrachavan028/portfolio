@@ -29,7 +29,7 @@ export default function App() {
         {isLoading ? (
           <LoadingScreen 
             key={loaderKey}
-            durationMs={2200} 
+            durationMs={4500} 
             onLoadingComplete={() => setIsLoading(false)} 
           />
         ) : (
