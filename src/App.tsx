@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import LoadingScreen from './components/LoadingScreen';
 import NetworkBackground from './components/NetworkBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -13,25 +15,51 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  const [loaderKey, setLoaderKey] = useState(0);
+
+  const handleReplayLoader = () => {
+    setLoaderKey((prev) => prev + 1);
+    setIsLoading(true);
+  };
+
   return (
     <div className="min-h-screen text-slate-200 overflow-x-hidden w-full relative bg-slate-950 selection:bg-sky-500/20 selection:text-sky-300">
-      <div className="ambient-glow" />
-      <NetworkBackground />
-      <Navbar />
-      
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Achievements />
-        <Certificates />
-        <Resume />
-        <Contact />
-      </main>
+      <AnimatePresence mode="wait">
+        {isLoading ? (
+          <LoadingScreen 
+            key={loaderKey}
+            durationMs={2200} 
+            onLoadingComplete={() => setIsLoading(false)} 
+          />
+        ) : (
+          <motion.div
+            key="main-portfolio-content"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="w-full relative"
+          >
+            <div className="ambient-glow" />
+            <NetworkBackground />
+            <Navbar onReplayLoader={handleReplayLoader} />
+            
+            <main>
+              <Hero />
+              <About />
+              <Skills />
+              <Projects />
+              <Experience />
+              <Achievements />
+              <Certificates />
+              <Resume />
+              <Contact />
+            </main>
 
-      <Footer />
+            <Footer onReplayLoader={handleReplayLoader} />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
