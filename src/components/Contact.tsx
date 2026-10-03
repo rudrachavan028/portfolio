@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'motion/react';
 import SectionHeading from './SectionHeading';
 import { portfolioData } from '../data';
-import { Mail, MapPin, Phone, Github, Linkedin, Code2 } from 'lucide-react';
+import { Mail, MapPin, Github, Linkedin, Code2 } from 'lucide-react';
 
 export default function Contact() {
-  const { email, location, phone, linkedin, github, leetcode } = portfolioData.hero;
+  const { email, location, linkedin, github, leetcode } = portfolioData.hero;
 
   return (
     <section id="contact" className="py-20 relative z-10 border-t border-white/5 bg-slate-950">
@@ -27,7 +27,7 @@ export default function Contact() {
               Whether you have a question, want to collaborate on an AI problem, or want to discuss opportunities, my inbox is always open. I'll try my best to get back to you!
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12 max-w-2xl mx-auto">
               <a href={`mailto:${email}`} className="flex flex-col items-center gap-3 sm:gap-4 text-slate-300 hover:text-cyan-400 transition-colors group p-5 sm:p-6 glass-panel rounded-xl">
                 <div className="p-3.5 sm:p-4 bg-slate-800 rounded-full group-hover:bg-cyan-500/20 transition-colors">
                   <Mail size={28} className="text-blue-400 group-hover:text-cyan-400" />
@@ -35,16 +35,6 @@ export default function Contact() {
                 <div className="text-center w-full">
                   <div className="text-xs sm:text-sm text-slate-500 mb-1">Email</div>
                   <div className="font-medium text-sm sm:text-base break-all px-1">{email}</div>
-                </div>
-              </a>
-
-              <a href={`tel:${phone.replace(/\s+/g, '')}`} className="flex flex-col items-center gap-3 sm:gap-4 text-slate-300 hover:text-cyan-400 transition-colors group p-5 sm:p-6 glass-panel rounded-xl">
-                <div className="p-3.5 sm:p-4 bg-slate-800 rounded-full group-hover:bg-cyan-500/20 transition-colors">
-                  <Phone size={28} className="text-blue-400 group-hover:text-cyan-400" />
-                </div>
-                <div className="text-center w-full">
-                  <div className="text-xs sm:text-sm text-slate-500 mb-1">Phone</div>
-                  <div className="font-medium text-sm sm:text-base">{phone}</div>
                 </div>
               </a>
               
