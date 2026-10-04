@@ -187,6 +187,17 @@ export const portfolioData = {
       image: "/ach7.jpg",
       badge: "2nd Rank • Grand Award",
       date: "2026"
+    },
+    {
+      id: 8,
+      rank: "1st Rank",
+      title: "Python Coding Competition",
+      subtitle: "CodeMatrix 2026",
+      info: "Recognized with 1st Rank for technological leadership, innovation impact, and comprehensive model benchmarking.",
+      project: "Behavioral Analytics Engine",
+      image: "/ach8.jpg",
+      badge: "1st Rank • Grand Award",
+      date: "2026"
     }
   ],
   achievements: [
@@ -207,6 +218,7 @@ export const portfolioData = {
    achievements: [
     "Winner of 3 State-Level Project Competitions",
     "Winner of 3 National-Level Project Competitions",
+     "1st Rank in CodeMatrix 2026 : Python Coding Competition"
     "Hackathon-style technical event winner",
     "Represented institute in multiple state-level competitions",
     "Strong innovation and problem-solving skills recognized across multiple events"
