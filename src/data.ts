@@ -5,7 +5,7 @@ export const portfolioData = {
     tagline: "Building intelligent systems to solve real-world problems.",
     intro: "I am a passionate AI/ML and Data Science student with a strong foundation in programming and intelligent system development. I love analyzing data, training models, and creating innovative solutions that make a difference.",
     email: "chavanrudra028@gmail.com",
-    phone: "+91 80070 81123", // Update with your actual phone number
+    phone: "+91 00000 00000", // Update with your actual phone number
     location: "Pune, Maharashtra, India",
     linkedin: "https://linkedin.com/in/rudrachavan", // Placeholder
     github: "https://github.com/rudrachavan028", // Placeholder
