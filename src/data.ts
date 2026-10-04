@@ -112,6 +112,17 @@ export const portfolioData = {
   ],
   achievementsList: [
     {
+      id: 8,
+      rank: "1st Rank",
+      title: "CodeMatrix 2026 : Python Coding Competition",
+      subtitle: "Python Coding Competition",
+      info: "Secured 1st Rank in CodeMatrix 2026 Python Coding Competition, demonstrating algorithmic problem-solving excellence, rapid optimization, and Python programming proficiency.",
+      project: "Python Algorithmic Optimization",
+      image: "/ach8.jpeg",
+      badge: "Winner • 1st Rank",
+      date: "2026"
+    },
+    {
       id: 1,
       rank: "AIR 310",
       title: "All India NCAT Exam – AIR 310",
@@ -186,17 +197,6 @@ export const portfolioData = {
       project: "Behavioral Analytics Engine",
       image: "/ach7.jpg",
       badge: "2nd Rank • Grand Award",
-      date: "2026"
-    },
-    {
-      id: 8,
-      rank: "1st Rank",
-      title: "Python Coding Competition",
-      subtitle: "CodeMatrix 2026",
-      info: "Recognized with 1st Rank for technological leadership, innovation impact, and comprehensive model benchmarking.",
-      project: "Behavioral Analytics Engine",
-      image: "/ach8.jpeg",
-      badge: "1st Rank • Grand Award",
       date: "2026"
     }
   ],
