@@ -173,7 +173,7 @@ export const portfolioData = {
       subtitle: "State Technical Paper & Project Exhibition",
       info: "Honored with 1st Rank for outstanding problem-solving and presentation on transformative AI algorithms for modern healthcare.",
       project: "Generative AI Healthcare Engine",
-      image: "/ach5.jpg",
+      image: "/ach5.png",
       badge: "1st Prize • Best Project Trophy",
       date: "2024"
     },
