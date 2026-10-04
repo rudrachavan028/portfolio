@@ -46,7 +46,7 @@ export default function LoadingScreen({
           exit={{ 
             opacity: 0, 
             scale: 1.05,
-            transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } 
+            transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] } 
           }}
           className="fixed inset-0 z-50 flex items-center justify-center bg-[#020617] select-none cursor-wait overflow-hidden"
         >
