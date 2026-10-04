@@ -195,7 +195,7 @@ export const portfolioData = {
       subtitle: "CodeMatrix 2026",
       info: "Recognized with 1st Rank for technological leadership, innovation impact, and comprehensive model benchmarking.",
       project: "Behavioral Analytics Engine",
-      image: "/ach8.jpg",
+      image: "/ach8.jpeg",
       badge: "1st Rank • Grand Award",
       date: "2026"
     }
