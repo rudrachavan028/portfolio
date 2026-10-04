@@ -111,7 +111,7 @@ export const portfolioData = {
     }
   ],
   achievementsList: [
-    {
+     {
       id: 8,
       rank: "1st Rank",
       title: "CodeMatrix 2026 : Python Coding Competition",
@@ -125,24 +125,24 @@ export const portfolioData = {
     {
       id: 1,
       rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "DIPEX State Innovation & Engineering Expo",
-      info: "Secured 1st Rank across Maharashtra state for presenting an AI-powered Neuro Therapy platform addressing PTSD recovery using intelligent assessment algorithms.",
-      project: "Neuro Therapy AI Platform",
+      title: "Best Outgoing Student Award",
+      subtitle: "Academic and Technical Skills Excellence",
+      info: "",
+      project: "",
       image: "/ach1.jpg",
       badge: "Winner • Gold Trophy",
-      date: "2025"
+      date: "2025-2026"
     },
     {
       id: 2,
-      rank: "1st Rank",
+      rank: "2ND Rank",
       title: "State Level Project Competition",
       subtitle: "National TechFest & Innovation Symposium",
       info: "Crowned 1st Rank for designing high-accuracy predictive machine learning models and real-time behavioral data analytics pipelines.",
       project: "Predictive Analytics Architecture",
       image: "/ach2.jpg",
       badge: "1st Prize • Certificate of Excellence",
-      date: "2025"
+      date: "2026"
     },
     {
       id: 3,
@@ -153,7 +153,7 @@ export const portfolioData = {
       project: "Intelligent Diagnostic Assistant",
       image: "/ach3.jpg",
       badge: "1st Position • State Trophy",
-      date: "2024"
+      date: "2026"
     },
     {
       id: 4,
@@ -164,7 +164,7 @@ export const portfolioData = {
       project: "Deep Learning Vision System",
       image: "/ach4.jpg",
       badge: "1st Rank • Cash Prize & Trophy",
-      date: "2024"
+      date: "2026"
     },
     {
       id: 5,
@@ -190,14 +190,14 @@ export const portfolioData = {
     },
     {
       id: 7,
-      rank: "1st Rank",
+      rank: "3rd Rank",
       title: "State Level Project Competition",
       subtitle: "State Level Technical Excellence Forum",
       info: "Recognized with 1st Rank for state-level technological leadership, innovation impact, and comprehensive model benchmarking.",
       project: "Behavioral Analytics Engine",
       image: "/ach7.jpg",
       badge: "1st Rank • Grand Award",
-      date: "2023"
+      date: "2026"
     }
   ],
   achievements: [
