@@ -203,6 +203,7 @@ export const portfolioData = {
   achievements: [
     "Winner of 3 State-Level Project Competitions",
     "Winner of 3 National-Level Project Competitions",
+    "1st Rank in CodeMatrix 2026 : Python Coding Competition",
     "Hackathon-style technical event winner",
     "Represented institute in multiple state-level competitions",
     "Strong innovation and problem-solving skills recognized across multiple events"
