@@ -9,7 +9,7 @@ export const portfolioData = {
     location: "Pune, Maharashtra, India",
     linkedin: "https://linkedin.com/in/rudrachavan", // Placeholder
     github: "https://github.com/rudrachavan028", // Placeholder
-    leetcode: "https://leetcode.com/rudrachavan", // Placeholder
+    leetcode: "https://leetcode.com/u/Vl57wJhyV9/", // Placeholder
     avatarUrl: "/ach5.png", // Local profile image
     resumeUrl: "/resume.pdf" // Local resume file
   },
