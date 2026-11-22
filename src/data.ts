@@ -125,7 +125,7 @@ export const portfolioData = {
      {
       id: 8,
       rank: "1st Rank",
-      title: "CodeMatrix 2026 : Python Coding Competition"
+      title: "CodeMatrix 2026 : Python Coding Competition By D.Y.Pail College of Engineering,Akurdi,Pune"
     },
     {
       id: 1,
@@ -135,32 +135,32 @@ export const portfolioData = {
     {
       id: 2,
       rank: "2ND Rank",
-      title: "State Level Project Competition"
+      title: "National Level Project Competition By Bharati Vidyapeeth College of Engineering,Kolhapur"
     },
     {
       id: 3,
       rank: "1st Rank",
-      title: "State Level Project Competition"
+      title: "State Level Project Competition By Goverment Poltechnique Kolhapur"
     },
     {
       id: 4,
-      rank: "1st Rank",
-      title: "State Level Project Competition"
+      rank: "2nd Rank",
+      title: "National Level Project Competition By Shivaji University Kolhapur"
     },
     {
       id: 5,
       rank: "1st Rank",
-      title: "State Level Project Competition"
+      title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
     },
     {
       id: 6,
       rank: "1st Rank",
-      title: "State Level Project Competition"
+      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
     },
     {
       id: 7,
       rank: "3rd Rank",
-      title: "State Level Project Competition"
+      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering,Pune"
     }
   ],
   achievements: [
