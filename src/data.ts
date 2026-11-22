@@ -144,14 +144,13 @@ export const portfolioData = {
     },
     {
       id: 4,
-      rank: "2nd Rank",
-      title: "National Level Project Competition By Shivaji University Kolhapur"
+      rank: "AIR 310",
+      title: "All India NCAT Exam"
     },
     {
       id: 5,
-      rank: "3rd Rank",
-      title: "National Level Project Competition By Bharati Vidyapeeth College of Engineering,Pune"
-     
+      rank: "2nd Rank",
+      title: "National Level Project Competition By Shivaji University Kolhapur"
     },
     {
       id: 6,
@@ -160,14 +159,18 @@ export const portfolioData = {
     },
     {
       id: 7,
-      rank: "1st Rank",
-      title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
-      
+      rank: "3rd Rank",
+      title: "National Level Project Competition By Bharati Vidyapeeth College of Engineering,Pune"      
     },
     {
       id: 8,
       rank: "1st Rank",
       title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
+    },
+      {
+      id: 9,
+      rank: "1st Rank",
+      title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
     }
   ],
   achievements: [
