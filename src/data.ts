@@ -140,7 +140,7 @@ export const portfolioData = {
     {
       id: 3,
       rank: "1st Rank",
-      title: "State Level Project Competition By Goverment Poltechnique Kolhapur"
+      title: "State Level Project Competition By Goverment Polytechnic Kolhapur"
     },
     {
       id: 4,
