@@ -164,8 +164,8 @@ export const portfolioData = {
     },
     {
       id: 8,
-      rank: "1st Rank",
-      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
+      rank: "2st Rank",
+      title:  "Academic Excellence Recognition in MSBTE Examination"
     },
       {
       id: 9,
@@ -174,9 +174,14 @@ export const portfolioData = {
     },
     {
       id: 9,
-      rank: "2st Rank",
-      title:  "MSBTE Examination"
-    }
+      rank: "1st Rank",
+      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
+    },
+    {
+      id: 10,
+      rank: "Awarded",
+      title: "Academic Excellence Recognition"
+    },
   ],
   achievements: [
     "1st Rank in CodeMatrix 2026 : Python Coding Competition",
