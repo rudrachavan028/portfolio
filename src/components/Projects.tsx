@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading title="Featured Projects" subtitle="Showcasing my work in AI/ML and software engineering." />
         
-        <div className={`grid grid-cols-1 md:grid-cols-2 ${projects.length >= 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2 max-w-5xl mx-auto'} gap-6 mt-8 sm:mt-12`}>
+        <div className={`grid grid-cols-1 md:grid-cols-2 ${projects.length === 4 || projects.length <= 2 ? 'lg:grid-cols-2 max-w-5xl mx-auto' : 'lg:grid-cols-3'} gap-6 mt-8 sm:mt-12`}>
           {projects.map((project, index) => (
             <motion.div 
               key={index}
