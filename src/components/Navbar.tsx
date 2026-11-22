@@ -50,12 +50,6 @@ export default function Navbar({ onReplayLoader }: NavbarProps) {
                   {link.name}
                 </a>
               ))}
-              <a 
-                href="#resume"
-                className="px-5 py-2 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold rounded-full transition-all flex items-center gap-2"
-              >
-                RESUME
-              </a>
               {onReplayLoader && (
                 <button
                   onClick={onReplayLoader}
@@ -94,13 +88,6 @@ export default function Navbar({ onReplayLoader }: NavbarProps) {
                 {link.name}
               </a>
             ))}
-            <a
-              href="#resume"
-              onClick={() => setIsOpen(false)}
-              className="block bg-sky-500 text-slate-950 font-bold rounded-xl px-4 py-2.5 mt-3 text-base text-center shadow-lg shadow-sky-500/20"
-            >
-              Resume
-            </a>
           </div>
         </div>
       )}
