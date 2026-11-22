@@ -70,20 +70,13 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Neuro Therapy – Digital Therapy Platform",
-      description: "Full-stack PTSD digital therapy platform with a 20-question assessment system. Integrates Google Gemini API for AI-powered personalized therapy recommendations. Features secure JWT authentication.",
-      technologies: ["React", "Node.js", "MySQL", "Google Gemini API", "JWT"],
-      image: "/Neuro.png", // Ensure you upload project-neuro-therapy.png to the public folder
-      githubUrl: "#",
-      demoUrl: "#"
-    },
-    {
       title: "Netflix Recommendation System",
       description: "Data analytics and recommendation project analyzing Netflix viewing trends and user behavior. Performed data cleaning, visualization, and derived insights on genres and engagement patterns.",
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       image: "/Netflix.png", // Ensure you upload project-netflix.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Netflix-Data-Analysis",
-      demoUrl: "#"
+      demoUrl: "#",
+      liveUrl: "" 
     },
      {
       title: "Anveshan: Your Digital Heritage Guide",
@@ -91,7 +84,8 @@ export const portfolioData = {
       technologies: ["React", "HTML", "NodeJS", "Tailwind CSS"],
       image: "/anveshan.png", // Ensure you upload Anveshan.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Digital-Heritage-Guide-Project",
-      demoUrl: "#"
+      demoUrl: "#",
+       liveUrl: "" 
     },
     {
       title: "Flipkart Data Analysis with Dashboard",
@@ -99,7 +93,8 @@ export const portfolioData = {
       technologies: ["Microsoft Power BI", "Data Analytics", "Data Visualization", "Power Query", "DAX"],
       image: "/flipkart.jpg", // Ensure you upload Flipkart.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Flipkart-Dashbord",
-      demoUrl: "#"
+      demoUrl: "#",
+      liveUrl: "" 
     },
   ],
   experience: [
