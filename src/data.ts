@@ -129,7 +129,7 @@ export const portfolioData = {
       subtitle: "Python Coding Competition",
       info: "Secured 1st Rank in CodeMatrix 2026 Python Coding Competition, demonstrating algorithmic problem-solving excellence, rapid optimization, and Python programming proficiency.",
       project: "Python Algorithmic Optimization",
-      image: "/ach8.jpeg",
+      image: "/new.jpeg",
       badge: "Winner • 1st Rank",
       date: "2026"
     },
