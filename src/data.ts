@@ -65,6 +65,10 @@ export const portfolioData = {
     {
       category: "Tools",
       items: ["Git", "GitHub"]
+    },
+    {
+      category: "Data Analysis",
+      items: ["Power BI", "Excel"]
     }
   ],
   projects: [
@@ -74,7 +78,6 @@ export const portfolioData = {
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       image: "/Netflix.png", // Ensure you upload project-netflix.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Netflix-Data-Analysis",
-      demoUrl: "#",
       liveUrl: "" 
     },
      {
@@ -83,8 +86,7 @@ export const portfolioData = {
       technologies: ["React", "HTML", "NodeJS", "Tailwind CSS"],
       image: "/anveshan.png", // Ensure you upload Anveshan.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Digital-Heritage-Guide-Project",
-      demoUrl: "#",
-       liveUrl: "heritageguideproject.vercel.app" 
+      liveUrl: "https://heritageguideproject.vercel.app/" 
     },
     {
       title: "Flipkart Data Analysis with Dashboard",
@@ -92,7 +94,6 @@ export const portfolioData = {
       technologies: ["Microsoft Power BI", "Data Analytics", "Data Visualization", "Power Query", "DAX"],
       image: "/flipkart.jpg", // Ensure you upload Flipkart.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Flipkart-Dashbord",
-      demoUrl: "#",
       liveUrl: "" 
     },
   ],
