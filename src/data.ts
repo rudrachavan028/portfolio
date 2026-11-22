@@ -89,7 +89,7 @@ export const portfolioData = {
       title: "Anveshan: Your Digital Heritage Guide",
       description: "Interactive digital heritage guide designed to help users explore historical monuments, cultural landmarks, and regional heritage stories with smart search and curated insights.",
       technologies: ["React", "Python", "AI/ML", "Tailwind CSS"],
-      image: "/Anveshan.png", // Ensure you upload Anveshan.png to the public folder
+      image: "/anveshan.png", // Ensure you upload Anveshan.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Digital-Heritage-Guide-Project",
       demoUrl: "#"
     },
@@ -97,7 +97,7 @@ export const portfolioData = {
       title: "Flipkart Data Analysis with Dashboard",
       description: "End-to-end e-commerce data analytics and interactive dashboard project uncovering Flipkart sales trends, pricing patterns, category performance, and customer ratings.",
       technologies: ["Microsoft Power BI", "Data Analytics", "Data Visualization", "Power Query", "DAX"],
-      image: "/Flipkart.png", // Ensure you upload Flipkart.png to the public folder
+      image: "/flipkart.png", // Ensure you upload Flipkart.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Flipkart-Dashbord",
       demoUrl: "#"
     },
