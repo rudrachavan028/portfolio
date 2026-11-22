@@ -163,22 +163,22 @@ export const portfolioData = {
       title: "National Level Project Competition By Bharati Vidyapeeth College of Engineering,Pune"      
     },
     {
-      id: 8,
+      id: 9,
       rank: "2nd Rank",
       title:  "Academic Excellence Recognition in MSBTE Examination"
     },
       {
-      id: 9,
+      id: 10,
       rank: "1st Rank",
       title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
     },
     {
-      id: 9,
+      id: 11,
       rank: "1st Rank",
       title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
     },
     {
-      id: 10,
+      id: 12,
       rank: "Awarded",
       title: "Academic Excellence Recognition"
     },
