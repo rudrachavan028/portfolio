@@ -118,34 +118,32 @@ export default function Hero() {
             </motion.div>
           </div>
           
-          {/* Avatar / Visuals */}
+          {/* Avatar / Visuals (Vertical Portrait Frame for Full Standing Image) */}
           <motion.div 
-            initial={{ opacity: 0, scale: 0.8 }}
+            initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
             className="lg:w-2/5 relative w-full flex justify-center"
           >
-            <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-96 md:h-96 mx-auto group">
+            <div className="relative w-60 h-80 sm:w-72 sm:h-[420px] md:w-80 md:h-[470px] mx-auto group">
               {/* Dynamic Aura Glow */}
               <motion.div 
                 animate={{ 
-                  rotate: 360,
-                  scale: [1, 1.05, 1],
+                  scale: [1, 1.04, 1],
                 }}
                 transition={{ 
-                  rotate: { duration: 25, repeat: Infinity, ease: "linear" },
                   scale: { duration: 6, repeat: Infinity, ease: "easeInOut" }
                 }}
-                className="absolute inset-0 bg-gradient-to-tr from-sky-500/40 via-indigo-500/40 to-cyan-400/40 rounded-full blur-2xl opacity-60 group-hover:opacity-100 transition-opacity duration-700"
+                className="absolute -inset-2 bg-gradient-to-tr from-sky-500/40 via-indigo-500/40 to-cyan-400/40 rounded-[2rem] blur-2xl opacity-60 group-hover:opacity-100 transition-opacity duration-700"
               />
               
-              {/* Avatar Image Container with Floating Effect */}
+              {/* Vertical Portrait Image Container with Floating Effect */}
               <motion.div 
                 animate={{ y: [-8, 8, -8] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-                className="relative z-10 w-full h-full rounded-full overflow-hidden border-2 border-slate-700/50 shadow-[0_0_40px_rgba(56,189,248,0.2)] group-hover:shadow-[0_0_60px_rgba(56,189,248,0.4)] group-hover:border-sky-500/50 transition-all duration-500 bg-slate-900 p-2"
+                className="relative z-10 w-full h-full rounded-3xl overflow-hidden border-2 border-slate-700/50 shadow-[0_0_40px_rgba(56,189,248,0.2)] group-hover:shadow-[0_0_60px_rgba(56,189,248,0.4)] group-hover:border-sky-500/50 transition-all duration-500 bg-slate-900 p-2"
               >
-                <div className="w-full h-full rounded-full overflow-hidden">
+                <div className="w-full h-full rounded-2xl overflow-hidden bg-slate-950">
                   <img 
                     src={avatarUrl} 
                     alt={name} 
@@ -153,7 +151,7 @@ export default function Hero() {
                       const target = e.target as HTMLImageElement;
                       target.src = "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=600&auto=format&fit=crop"; 
                     }}
-                    className="w-full h-full object-cover scale-100 group-hover:scale-110 transition-transform duration-700 ease-out"
+                    className="w-full h-full object-cover object-top scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"
                   />
                 </div>
               </motion.div>
@@ -162,7 +160,7 @@ export default function Hero() {
               <motion.div 
                 animate={{ y: [0, -10, 0], rotate: [0, -2, 0] }}
                 transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                className="absolute top-6 -left-2 sm:top-10 sm:-left-6 glass-panel px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl flex items-center gap-2 border border-white/10 z-20 shadow-xl backdrop-blur-md"
+                className="absolute top-6 -left-3 sm:top-8 sm:-left-6 glass-panel px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl flex items-center gap-2 border border-white/10 z-20 shadow-xl backdrop-blur-md"
               >
                 <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_10px_rgba(52,211,153,0.8)]" />
                 <span className="text-xs sm:text-sm font-mono font-medium text-slate-200">Available</span>
@@ -171,7 +169,7 @@ export default function Hero() {
               <motion.div 
                 animate={{ y: [0, 10, 0], rotate: [0, 2, 0] }}
                 transition={{ repeat: Infinity, duration: 5, ease: "easeInOut", delay: 1 }}
-                className="absolute bottom-6 -right-2 sm:bottom-12 sm:-right-4 glass-panel px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-white/10 z-20 shadow-xl backdrop-blur-md bg-slate-900/60"
+                className="absolute bottom-6 -right-3 sm:bottom-10 sm:-right-6 glass-panel px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl border border-white/10 z-20 shadow-xl backdrop-blur-md bg-slate-900/60"
               >
                 <span className="text-xs sm:text-sm font-mono text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-400 font-bold tracking-wide">AI/ML Focus</span>
               </motion.div>
