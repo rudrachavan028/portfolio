@@ -78,16 +78,24 @@ export default function Projects() {
                   >
                     <Github size={14} /> Code
                   </a>
-                  {project.demoUrl !== '#' && (
-                     <a 
-                      href={project.demoUrl} 
-                      target="_blank" 
-                      rel="noreferrer"
-                      className="flex items-center gap-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-500 transition-colors border border-blue-600 rounded-md py-1.5 px-3"
-                     >
-                       <ExternalLink size={14} /> Demo
-                     </a>
-                  )}
+                  {(() => {
+                    const liveHref = project.liveUrl || project.demoUrl;
+                    const hasValidLink = Boolean(liveHref && liveHref !== '#');
+                    return (
+                      <a 
+                        href={hasValidLink ? liveHref : '#projects'}
+                        target={hasValidLink ? "_blank" : undefined}
+                        rel={hasValidLink ? "noreferrer" : undefined}
+                        onClick={(e) => {
+                          if (!hasValidLink) e.preventDefault();
+                        }}
+                        title={hasValidLink ? "Open Live Site" : "Add your live URL in src/data.ts"}
+                        className="flex items-center gap-1.5 text-xs font-semibold text-slate-950 bg-sky-400 hover:bg-sky-300 transition-colors border border-sky-400 rounded-md py-1.5 px-3 shadow-md shadow-sky-500/20"
+                      >
+                        <ExternalLink size={14} /> Live Link
+                      </a>
+                    );
+                  })()}
                 </div>
               </div>
             </motion.div>
