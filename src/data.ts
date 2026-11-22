@@ -171,6 +171,11 @@ export const portfolioData = {
       id: 9,
       rank: "1st Rank",
       title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
+    },
+    {
+      id: 9,
+      rank: "2st Rank",
+      title:  "MSBTE Examination"
     }
   ],
   achievements: [
