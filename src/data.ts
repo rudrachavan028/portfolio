@@ -97,7 +97,7 @@ export const portfolioData = {
       title: "Flipkart Data Analysis with Dashboard",
       description: "End-to-end e-commerce data analytics and interactive dashboard project uncovering Flipkart sales trends, pricing patterns, category performance, and customer ratings.",
       technologies: ["Microsoft Power BI", "Data Analytics", "Data Visualization", "Power Query", "DAX"],
-      image: "/flipkart.png", // Ensure you upload Flipkart.png to the public folder
+      image: "/flipkart.jpg", // Ensure you upload Flipkart.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Flipkart-Dashbord",
       demoUrl: "#"
     },
