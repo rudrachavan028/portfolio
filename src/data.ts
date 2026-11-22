@@ -11,7 +11,6 @@ export const portfolioData = {
     github: "https://github.com/rudrachavan028", // Placeholder
     leetcode: "https://leetcode.com/u/Vl57wJhyV9/", // Placeholder
     avatarUrl: "/profile.jpeg", // Local profile image
-    resumeUrl: "/resume.pdf" // Local resume file
   },
   competitionImages: [
     "/im1.jpg", "/im2.jpg", "/im3.jpg", "/im4.jpg", "/im5.jpg" // Using .jpg, rename extension if they are .png
@@ -184,7 +183,7 @@ export const portfolioData = {
       subtitle: "State Technical Paper & Project Exhibition",
       info: "Honored with 1st Rank for outstanding problem-solving and presentation on transformative AI algorithms for modern healthcare.",
       project: "Generative AI Healthcare Engine",
-      image: "/ach5.png",
+      image: "/profile.jpeg",
       badge: "1st Prize • Best Project Trophy",
       date: "2024"
     },
