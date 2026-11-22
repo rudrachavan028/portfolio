@@ -2,14 +2,12 @@ import React from 'react';
 import { motion } from 'motion/react';
 import SectionHeading from './SectionHeading';
 import { portfolioData } from '../data';
-import { Trophy, Award, Building2 } from 'lucide-react';
+import { Trophy } from 'lucide-react';
 
 interface AchievementItem {
   id: number;
   rank: string;
   title: string;
-  subtitle: string;
-  organizedBy?: string;
 }
 
 export default function Achievements() {
@@ -28,7 +26,7 @@ export default function Achievements() {
         />
 
         {/* VERTICAL ACHIEVEMENTS LIST */}
-        <div className="mt-8 sm:mt-12 flex flex-col gap-4">
+        <div className="mt-8 sm:mt-12 flex flex-col gap-3.5">
           {achievements.map((item, index) => (
             <motion.div
               key={item.id}
@@ -37,37 +35,18 @@ export default function Achievements() {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.05 }}
               whileHover={{ x: 4 }}
-              className="w-full rounded-2xl overflow-hidden glass-panel border border-white/10 hover:border-sky-400/40 hover:shadow-sky-500/10 transition-all duration-300 shadow-lg relative group p-5 sm:p-6 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-indigo-950/40"
+              className="w-full rounded-2xl overflow-hidden glass-panel border border-white/10 hover:border-sky-400/40 hover:shadow-sky-500/10 transition-all duration-300 shadow-lg relative group px-5 py-4 sm:px-6 sm:py-5 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-indigo-950/40"
             >
               {/* Subtle Decorative Background Trophy Watermark */}
               <div className="absolute -bottom-3 -right-2 text-sky-500/5 group-hover:text-sky-400/10 transition-colors pointer-events-none">
-                <Trophy size={76} />
+                <Trophy size={64} />
               </div>
 
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 relative z-10">
-                <div className="space-y-1.5">
-                  {/* Title */}
-                  <h4 className="text-lg sm:text-xl font-bold text-white group-hover:text-sky-300 transition-colors leading-snug">
-                    {item.title}
-                  </h4>
-
-                  {/* Subtitle */}
-                  <div className="flex items-center gap-2 text-xs sm:text-sm font-medium text-cyan-400">
-                    <Award size={15} className="shrink-0 text-cyan-400" />
-                    <span>{item.subtitle}</span>
-                  </div>
-
-                  {/* Organized By */}
-                  <div className="flex items-center gap-2 text-xs sm:text-sm pt-0.5">
-                    <Building2 size={14} className="shrink-0 text-sky-400/80" />
-                    <span>
-                      <span className="text-slate-400 font-medium">Organized by:</span>{' '}
-                      <span className={item.organizedBy ? 'text-slate-200 font-medium' : 'text-slate-500 italic'}>
-                        {item.organizedBy || 'Organizer name'}
-                      </span>
-                    </span>
-                  </div>
-                </div>
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4 relative z-10">
+                {/* Title */}
+                <h4 className="text-base sm:text-xl font-bold text-white group-hover:text-sky-300 transition-colors leading-snug">
+                  {item.title}
+                </h4>
 
                 {/* Rank */}
                 <div className="self-start sm:self-center shrink-0 inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-sky-500/10 border border-sky-400/40 text-sky-300 shadow-lg shadow-sky-500/10">
