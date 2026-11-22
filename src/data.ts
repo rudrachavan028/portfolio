@@ -10,7 +10,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com/in/rudrachavan", // Placeholder
     github: "https://github.com/rudrachavan028", // Placeholder
     leetcode: "https://leetcode.com/u/Vl57wJhyV9/", // Placeholder
-    avatarUrl: "/profile.jpeg", // Local profile image
+    avatarUrl: "/new.jpeg", // Local profile image
   },
   competitionImages: [
     "/im1.jpg", "/im2.jpg", "/im3.jpg", "/im4.jpg", "/im5.jpg" // Using .jpg, rename extension if they are .png
