@@ -10,7 +10,7 @@ export const portfolioData = {
     linkedin: "https://linkedin.com/in/rudrachavan", // Placeholder
     github: "https://github.com/rudrachavan028", // Placeholder
     leetcode: "https://leetcode.com/u/Vl57wJhyV9/", // Placeholder
-    avatarUrl: "/ach5.png", // Local profile image
+    avatarUrl: "/profile.jpeg", // Local profile image
     resumeUrl: "/resume.pdf" // Local resume file
   },
   competitionImages: [
