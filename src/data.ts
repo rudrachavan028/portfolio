@@ -88,7 +88,7 @@ export const portfolioData = {
      {
       title: "Anveshan: Your Digital Heritage Guide",
       description: "Interactive digital heritage guide designed to help users explore historical monuments, cultural landmarks, and regional heritage stories with smart search and curated insights.",
-      technologies: ["React", "Python", "AI/ML", "Tailwind CSS"],
+      technologies: ["React", "HTML", "NodeJS", "Tailwind CSS"],
       image: "/anveshan.png", // Ensure you upload Anveshan.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Digital-Heritage-Guide-Project",
       demoUrl: "#"
