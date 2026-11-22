@@ -82,7 +82,7 @@ export const portfolioData = {
       description: "Data analytics and recommendation project analyzing Netflix viewing trends and user behavior. Performed data cleaning, visualization, and derived insights on genres and engagement patterns.",
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       image: "/Netflix.png", // Ensure you upload project-netflix.png to the public folder
-      githubUrl: "#",
+      githubUrl: "https://github.com/rudrachavan028/Netflix-Data-Analysis",
       demoUrl: "#"
     },
      {
@@ -90,7 +90,7 @@ export const portfolioData = {
       description: "Interactive digital heritage guide designed to help users explore historical monuments, cultural landmarks, and regional heritage stories with smart search and curated insights.",
       technologies: ["React", "Python", "AI/ML", "Tailwind CSS"],
       image: "/Anveshan.png", // Ensure you upload Anveshan.png to the public folder
-      githubUrl: "#",
+      githubUrl: "https://github.com/rudrachavan028/Digital-Heritage-Guide-Project",
       demoUrl: "#"
     },
     {
@@ -98,7 +98,7 @@ export const portfolioData = {
       description: "End-to-end e-commerce data analytics and interactive dashboard project uncovering Flipkart sales trends, pricing patterns, category performance, and customer ratings.",
       technologies: ["Microsoft Power BI", "Data Analytics", "Data Visualization", "Power Query", "DAX"],
       image: "/Flipkart.png", // Ensure you upload Flipkart.png to the public folder
-      githubUrl: "#",
+      githubUrl: "https://github.com/rudrachavan028/Flipkart-Dashbord",
       demoUrl: "#"
     },
   ],
