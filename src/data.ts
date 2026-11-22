@@ -125,90 +125,42 @@ export const portfolioData = {
      {
       id: 8,
       rank: "1st Rank",
-      title: "CodeMatrix 2026 : Python Coding Competition",
-      subtitle: "Python Coding Competition",
-      info: "Secured 1st Rank in CodeMatrix 2026 Python Coding Competition, demonstrating algorithmic problem-solving excellence, rapid optimization, and Python programming proficiency.",
-      project: "Python Algorithmic Optimization",
-      image: "/new.jpeg",
-      badge: "Winner • 1st Rank",
-      date: "2026"
+      title: "CodeMatrix 2026 : Python Coding Competition"
     },
     {
       id: 1,
       rank: "1st Rank",
-      title: "Best Outgoing Student Award",
-      subtitle: "Academic and Technical Skills Excellence",
-      info: "",
-      project: "",
-      image: "/ach1.jpg",
-      badge: "Winner • Gold Trophy",
-      date: "2025-2026"
+      title: "Best Outgoing Student Award"
     },
     {
       id: 2,
       rank: "2ND Rank",
-      title: "State Level Project Competition",
-      subtitle: "National TechFest & Innovation Symposium",
-      info: "Crowned 1st Rank for designing high-accuracy predictive machine learning models and real-time behavioral data analytics pipelines.",
-      project: "Predictive Analytics Architecture",
-      image: "/ach2.jpg",
-      badge: "1st Prize • Certificate of Excellence",
-      date: "2026"
+      title: "State Level Project Competition"
     },
     {
       id: 3,
       rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "Maharashtra State Engineering Conclave",
-      info: "Won 1st Rank among 140+ competing teams for demonstrated engineering innovation, code quality, and real-world clinical feasibility.",
-      project: "Intelligent Diagnostic Assistant",
-      image: "/ach3.jpg",
-      badge: "1st Position • State Trophy",
-      date: "2026"
+      title: "State Level Project Competition"
     },
     {
       id: 4,
       rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "Inter-Collegiate AI & Deep Learning Summit",
-      info: "Awarded 1st Rank for best technical implementation and algorithmic efficiency in supervised and unsupervised model training.",
-      project: "Deep Learning Vision System",
-      image: "/ach4.jpg",
-      badge: "1st Rank • Cash Prize & Trophy",
-      date: "2026"
+      title: "State Level Project Competition"
     },
     {
       id: 5,
       rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "State Technical Paper & Project Exhibition",
-      info: "Honored with 1st Rank for outstanding problem-solving and presentation on transformative AI algorithms for modern healthcare.",
-      project: "Generative AI Healthcare Engine",
-      image: "/profile.jpeg",
-      badge: "1st Prize • Best Project Trophy",
-      date: "2024"
+      title: "State Level Project Competition"
     },
     {
       id: 6,
       rank: "1st Rank",
-      title: "State Level Project Competition",
-      subtitle: "Grand Innovation Hackathon Championship",
-      info: "Achieved 1st Rank in rapid AI prototyping, creating an end-to-end data science pipeline with intuitive visualization dashboards.",
-      project: "Automated Data Science Pipeline",
-      image: "/ach6.jpg",
-      badge: "1st Rank • Winner",
-      date: "2023"
+      title: "State Level Project Competition"
     },
     {
       id: 7,
       rank: "3rd Rank",
-      title: "State Level Project Competition",
-      subtitle: "State Level Technical Excellence Forum",
-      info: "Recognized with 1st Rank for state-level technological leadership, innovation impact, and comprehensive model benchmarking.",
-      project: "Behavioral Analytics Engine",
-      image: "/ach7.jpg",
-      badge: "1st Rank • Grand Award",
-      date: "2026"
+      title: "State Level Project Competition"
     }
   ],
   achievements: [
