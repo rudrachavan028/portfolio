@@ -11,7 +11,7 @@ export default function Hero() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1, delayChildren: 0.2
+        staggerChildren: 0.04, delayChildren: 0.05
       },
     },
   };
@@ -21,7 +21,7 @@ export default function Hero() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.05, delayChildren: 1.5
+        staggerChildren: 0.025, delayChildren: 0.45
       },
     },
   };
@@ -78,7 +78,7 @@ export default function Hero() {
             <motion.p 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 2.8 }}
+              transition={{ duration: 0.45, delay: 0.7 }}
               className="text-lg sm:text-xl text-slate-300 font-medium mb-3 sm:mb-4 mt-4 sm:mt-6"
             >
               {tagline}
@@ -87,7 +87,7 @@ export default function Hero() {
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 3.0 }}
+              transition={{ duration: 0.45, delay: 0.85 }}
               className="text-slate-400 mb-8 sm:mb-10 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg leading-relaxed"
             >
               {intro}
@@ -96,7 +96,7 @@ export default function Hero() {
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 3.2 }}
+              transition={{ duration: 0.45, delay: 0.95 }}
               className="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4"
             >
               <a 
@@ -192,7 +192,7 @@ export default function Hero() {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 3.8, duration: 1 }}
+            transition={{ delay: 1.05, duration: 0.5 }}
             className="mt-14 sm:mt-20 mb-6 sm:mb-8 border-t border-slate-800/50 pt-8"
           >
             <div className="text-center mb-6">
@@ -248,7 +248,7 @@ export default function Hero() {
         <motion.div 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 3.5, duration: 1 }}
+          transition={{ delay: 1.1, duration: 0.5 }}
           className="mt-8 sm:mt-12 flex flex-col items-center gap-2 relative z-20 pb-4"
         >
           <span className="text-xs text-slate-500 font-mono tracking-widest uppercase">Scroll Down</span>
