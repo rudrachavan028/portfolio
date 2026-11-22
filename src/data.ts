@@ -149,18 +149,25 @@ export const portfolioData = {
     },
     {
       id: 5,
-      rank: "1st Rank",
-      title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
+      rank: "3rd Rank",
+      title: "National Level Project Competition By Bharati Vidyapeeth College of Engineering,Pune"
+     
     },
     {
       id: 6,
-      rank: "1st Rank",
-      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
+       rank: "Awarded to",
+      title: "Top Prompt Creator By Google Student Program" 
     },
     {
       id: 7,
-      rank: "3rd Rank",
-      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering,Pune"
+      rank: "1st Rank",
+      title:  "State Level Event [TECHNOVA 2K26] By D.Y.Patil Polytechnic"
+      
+    },
+    {
+      id: 8,
+      rank: "1st Rank",
+      title: "State Level Project Competition By Bharati Vidyapeeth College of Engineering(Diploma),Kolhapur"
     }
   ],
   achievements: [
