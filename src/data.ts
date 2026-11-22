@@ -164,7 +164,7 @@ export const portfolioData = {
     },
     {
       id: 8,
-      rank: "2st Rank",
+      rank: "2nd Rank",
       title:  "Academic Excellence Recognition in MSBTE Examination"
     },
       {
