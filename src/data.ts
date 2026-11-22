@@ -154,7 +154,7 @@ export const portfolioData = {
     },
     {
       id: 6,
-       rank: "Awarded to",
+       rank: "1st Rank",
       title: "Top Prompt Creator By Google Student Program" 
     },
     {
