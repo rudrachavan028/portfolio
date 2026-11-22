@@ -10,7 +10,6 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Achievements from './components/Achievements';
 import Certificates from './components/Certificates';
-import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -52,7 +51,6 @@ export default function App() {
               <Experience />
               <Achievements />
               <Certificates />
-              <Resume />
               <Contact />
             </main>
 
