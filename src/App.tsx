@@ -29,7 +29,7 @@ export default function App() {
         {isLoading ? (
           <LoadingScreen 
             key={loaderKey}
-            durationMs={4500} 
+            durationMs={1000} 
             onLoadingComplete={() => setIsLoading(false)} 
           />
         ) : (
@@ -37,7 +37,7 @@ export default function App() {
             key="main-portfolio-content"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.35, ease: "easeOut" }}
             className="w-full relative"
           >
             <div className="ambient-glow" />
