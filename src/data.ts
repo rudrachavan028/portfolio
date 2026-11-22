@@ -84,7 +84,7 @@ export const portfolioData = {
       image: "/anveshan.png", // Ensure you upload Anveshan.png to the public folder
       githubUrl: "https://github.com/rudrachavan028/Digital-Heritage-Guide-Project",
       demoUrl: "#",
-       liveUrl: "" 
+       liveUrl: "heritageguideproject.vercel.app" 
     },
     {
       title: "Flipkart Data Analysis with Dashboard",
