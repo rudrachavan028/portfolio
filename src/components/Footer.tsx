@@ -16,7 +16,6 @@ export default function Footer({ onReplayLoader }: FooterProps) {
     { name: 'Experience', href: '#experience' },
     { name: 'Achievements', href: '#achievements' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Resume', href: '#resume' },
   ];
 
   return (
