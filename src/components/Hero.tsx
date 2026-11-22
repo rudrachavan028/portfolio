@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Github, Linkedin, Mail, FileText, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { portfolioData } from '../data';
 
 export default function Hero() {
@@ -105,13 +105,6 @@ export default function Hero() {
               >
                 <Mail size={18} />
                 Contact Me
-              </a>
-              <a 
-                href="#resume" 
-                className="w-full sm:w-auto px-7 sm:px-8 py-3 rounded-full glass-panel glass-panel-hover text-white font-medium transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
-              >
-                <FileText size={18} />
-                View Resume
               </a>
               
               <div className="flex items-center gap-3 sm:gap-4 mt-2 sm:mt-0">
